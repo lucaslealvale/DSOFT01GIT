@@ -1,5 +1,5 @@
-n=int(input("Quantos termos voce quer? "))
-def ler_numeros(n):
+def ler_numeros():
+	n=int(input("Quantos termos voce quer? "))
 	lista=[]
 	x=0
 	while (x<n):
